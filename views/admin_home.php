@@ -57,7 +57,8 @@
         // ['removeformat'],
         ['fullscreen']
     ],
-    autogrow: true
+    autogrow: true,
+    removeformatPasted: true
   });
   $('[js-save-btn]').click(function() {
     var contentID = $(this).data('content-id');
